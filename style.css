@@ -1,0 +1,172 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  height: 80px;
+  width: 100%;
+  color: white;
+}
+
+#logo {
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  margin: 30px 30px 30px;
+  line-height: 95px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px 15px 30px;
+}
+
+nav ul li a {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-bars {
+  font-size: 15px;
+  color: azure;
+  float: right;
+  margin-right: 30px;
+  line-height: 110px;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu-bars {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    text-align: center;
+    top: 60px;
+    left: -120%;
+    transition: all 1s;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 30px 0;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+    color: white;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+.index-container{
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.index-item{
+  background: black;
+  color: azure;
+  font-size: 20px;
+  padding: 30px;
+  border: skyblue 1px solid;
+}
+
+.anchor{
+  color: rgb(122, 255, 255);
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.blog-section {
+  background: black;
+  color: azure;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.continue{
+  color: gray;
+}
+
+.projects-container {
+  max-width: 1400px;
+  margin: 100px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.project-item {
+  background: black;
+  color: azure;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.headings-two{
+  color: azure;
+  font-size: 30px;
+  margin: 55px;
+}
+
+.headings-three{
+  color: azure;
+  font-size: 20px;
+  margin: 55px;
+  text-decoration: underline;
+}
+
+.headings-breaker{
+  color: azure;
+  font-size: 30px;
+  text-align: center;
+}
+
+.paragraph{
+  color: white;
+  font-size: 15px;
+  margin: 55px;
+}
