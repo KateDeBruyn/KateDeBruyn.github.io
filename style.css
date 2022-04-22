@@ -81,6 +81,14 @@ nav ul li a {
   }
 }
 
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  height: 80px;
+  width: 100%;
+  color: white;
+}
+
 .index-container{
   max-width: 200px;
   margin: auto;
@@ -134,11 +142,44 @@ nav ul li a {
   padding: 20px;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 30px;
 }
 
 .project-item {
+  background: black;
+  color: azure;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.guide-container {
+  max-width: 1400px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 0px;
+  row-gap: 10px;
+}
+
+.guide-item {
+  background: black;
+  color: azure;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.video-container {
+  max-width: 1400px;
+  margin: 100px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+}
+
+.video-item {
   background: black;
   color: azure;
   font-size: 20px;
@@ -167,6 +208,6 @@ nav ul li a {
 
 .paragraph{
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   margin: 55px;
 }
