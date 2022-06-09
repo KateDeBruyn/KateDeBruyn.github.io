@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/a7ac100429.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="index.js"></script>
   </head>
 
   <body>
@@ -23,10 +24,11 @@
         ></label>
         <label for="logo" id="logo">keightyrose</label>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="styleguide.html">Style Guide</a></li>
+          <li><a id="nav-button-index" href="index.html">Home</a></li>
+          <li><a id="nav-button" href="blog.html">Blog</a></li>
+          <li><a id="nav-button" href="projects.html">Projects</a></li>
+          <li><a id="nav-button" href="styleguide.html">Style Guide</a></li>
+          <li><a id="nav-button" href="contactform.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -111,7 +113,30 @@
           </div>
         </div>
       </section>
+      <section class="prompt-container">
+        <!-- Video game prompt generator -->
+        <article class="prompt-article">
+          <h3 id="prompt-a">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex maxime
+            modi quidem nisi aut molestias accusamus qui expedita aspernatur
+            laboriosam doloribus nulla, doloremque nemo id! Beatae labore
+            dolorum omnis nemo?
+          </h3>
+          <h3 id="prompt-b">Puzzle game</h3>
+          <button id="generator-button" onclick="getPrompt()">
+            generate game idea
+          </button>
+        </article>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>
+        Luke I am your father
+        <br/>
+        <div class="align-right">
+          - Darth Vader
+        </div>
+      </p>
+    </footer>
   </body>
 </html>

@@ -81,6 +81,67 @@ nav ul li a {
   }
 }
 
+#nav-button:hover{
+  color: azure;
+  text-decoration: underline;
+  text-underline-offset: 20%;
+}
+
+#nav-button-index{
+  color: black;
+  background: beige;
+  width: 100px;
+  padding: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-button-blog{
+  color: black;
+  background: beige;
+  width: 100px;
+  padding: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-button-projects{
+  color: black;
+  background: beige;
+  width: 100px;
+  padding: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-button-styleg{
+  color: black;
+  background: beige;
+  width: 100px;
+  padding: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-button-contact{
+  color: black;
+  background: beige;
+  width: 100px;
+  padding: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
 footer {
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
@@ -89,6 +150,68 @@ footer {
   color: white;
 }
 
+.align-right {
+  text-align: right;
+  padding: 10px;
+}
+
+/* CONTACT BUTTON AND FORM */
+#contact-button{
+  color: rgb(122, 255, 255);
+}
+
+#contact-button:hover{
+  color: azure;
+  text-decoration: underline;
+  text-underline-offset: 20%;
+}
+
+.contact-container{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3{
+  color: azure;
+}
+
+form input, textarea {
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: azure;
+}
+
+form button{
+  width: 150px;
+  margin: 20px auto 0;
+  padding: 15px;
+  background: skyblue;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+/*INDEX PAGE STYLING SECTION*/
 .index-container{
   max-width: 200px;
   margin: auto;
@@ -113,6 +236,39 @@ footer {
   text-decoration: none;
 }
 
+.prompt-container{
+  margin: 0 auto;
+  height: 50vh;
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+#prompt-a, #prompt-b{
+  color: rgb(122, 255, 255);
+  text-align: center;
+}
+
+#generator-button{
+  background: black;
+  color: azure;
+  border-radius: 5px;
+  border: 1px solid azure;
+  padding: 15px;
+  transition: ease-in-out 0.2s;
+}
+
+#generator-button:hover{
+  background: azure;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+/*BLOGS PAGE STYLING SECTION*/
+
 .container {
   max-width: 960px;
   margin: 100px auto;
@@ -136,6 +292,26 @@ footer {
   color: gray;
 }
 
+/*INDIVIDUAL BLOG PAGES AND THEIR ELEMENTS*/
+
+#blog-paragraph{
+  color: rgb(244, 241, 231);
+  margin: 10px 200px;
+  padding: 20px;
+}
+
+#blog-heading{
+  color: white;
+  font-size: 30px;
+  margin: 10px 200px;
+  padding: 20px;
+}
+
+.hyperlink{
+  color: skyblue;
+}
+
+/*PROJECTS PAGE STYLING SECTION*/
 .projects-container {
   max-width: 1400px;
   margin: 100px auto;
@@ -153,6 +329,7 @@ footer {
   border: skyblue 1px solid;
 }
 
+/*STYLE GUIDE PAGE STYLING SECTION*/
 .guide-container {
   max-width: 1400px;
   margin: 100px auto;
