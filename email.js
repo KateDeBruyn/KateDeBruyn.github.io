@@ -1,6 +1,5 @@
 /* TUTORIAL BY EASY TUTOTIALS: https://www.youtube.com/watch?v=sGQSz22U8VM&t=33 */
-
-function sendEmail() {
+function SendEmail() {
     Email.send({
       SecureToken: "d81df1d7-7308-4764-92aa-83d9c4ca5e97",
       To: "katierosedb@gmail.com",

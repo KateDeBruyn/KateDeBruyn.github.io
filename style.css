@@ -147,12 +147,14 @@ footer {
   backdrop-filter: blur(10px);
   height: 80px;
   width: 100%;
-  color: white;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.align-right {
-  text-align: right;
-  padding: 10px;
+footer h4{
+  color: rgb(78, 78, 78);
+  font-size: 15px;
+  text-align: center;
 }
 
 /* CONTACT BUTTON AND FORM */
@@ -300,9 +302,16 @@ form button{
   padding: 20px;
 }
 
-#blog-heading{
+#blog-heading h2{
   color: white;
   font-size: 30px;
+  margin: 10px 200px;
+  padding: 20px;
+}
+
+#blog-heading h3{
+  color: white;
+  font-size: 20px;
   margin: 10px 200px;
   padding: 20px;
 }

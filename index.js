@@ -3,7 +3,7 @@
 var promptA;
 var promptB;
 
-function initialise() {
+function Initialise() {
     promptA = [];
     promptB = [];
 
@@ -18,20 +18,20 @@ function initialise() {
     promptB[2] = "Real Time Strategy";
 }
 
-function getPrompt(){
+function GetPrompt(){
     let newPromptA = document.getElementById("prompt-a");
     let newPromptB = document.getElementById("prompt-b");
 
-    initialise();
+    Initialise();
     
-    let a = randomIndex(promptA);
-    let b = randomIndex(promptB);
+    let a = RandomIndex(promptA);
+    let b = RandomIndex(promptB);
 
     newPromptA.innerHTML = promptA[a];
     newPromptB.innerHTML = promptB[b];
 }
 
-function randomIndex(array) {
+function RandomIndex(array) {
     let currentIndex = array.length,  
         randomIndex;
 
