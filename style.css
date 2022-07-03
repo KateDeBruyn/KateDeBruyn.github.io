@@ -228,6 +228,11 @@ footer h4{
   color: skyblue;
 }
 
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
 /* CONTACT BUTTON AND FORM */
 #contact-button{
   color: rgb(122, 255, 255);
@@ -480,6 +485,31 @@ form button{
   font-size: 20px;
   padding: 20px;
   border: skyblue 1px solid;
+}
+
+@media (max-width: 1000px){
+  .projects-container {
+    max-width: auto;
+    margin: 80px auto;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+  }
+
+  .img-responsive{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .figure-responsive{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 /*STYLE GUIDE PAGE STYLING SECTION*/
