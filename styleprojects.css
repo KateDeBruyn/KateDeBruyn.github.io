@@ -1,0 +1,111 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url(/images/cityrain_811034.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*#jumpanchors{
+    text-align: center;
+    margin: 100px
+  }*/
+
+  #nav-projects{
+    background: rgba(255, 218, 185, 0.5);
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    color: white;
+  }
+
+  /*#h1-projects{
+    color: white;
+    font-size: 30px;
+    top: 80px;
+    left: 0;
+  }*/
+
+  #ul-li-projects{
+    display: inline-block;
+    margin: 15px;
+  }
+
+  .menu-bars-projects {
+    font-size: 15px;
+    color: azure;
+    float: right;
+    margin-right: 30px;
+    line-height: 80px;
+    display: none;
+  }
+  
+  #check-projects {
+    display: none;
+  }
+
+  @media (max-width: 1000px) {
+    .menu-bars {
+      display: block;
+    }
+
+    #nav-projects{
+      background: rgba(255, 218, 185, 0.5);
+      position: fixed;
+      top: 80px;
+      left: 0;
+      height: 80px;
+      width: 100%;
+      backdrop-filter: blur(5px);
+      color: white;
+    } 
+
+    #ul-projects{
+      align-items: center;
+      position: fixed;
+      top: 30px;
+      left: auto;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      background-color: rgba(255, 218, 185, 0.5);
+      height: 100vh;
+      text-align: center;
+      top: 85px;
+      left: -120%;
+      transition: all 1s;
+    }
+
+    #check-projects:checked ~ ul {
+      left: 0;
+    }
+
+    /*nav ul {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 100vh;
+      text-align: center;
+      top: 60px;
+      left: -120%;
+      transition: all 1s;
+    }
+  
+    nav ul li {
+      display: block;
+      padding: 30px 0;
+    }
+  
+    nav ul li a {
+      font-size: 25px;
+      color: white;
+    }*/
+  }
+  
