@@ -233,6 +233,11 @@ footer h4{
   height: auto;
 }
 
+.video-responsive{
+  width: 100%;
+  height: auto;
+}
+
 /* CONTACT BUTTON AND FORM */
 #contact-button{
   color: rgb(122, 255, 255);
@@ -300,6 +305,9 @@ form button{
   grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
+
+  animation: backInLeft;
+  animation-duration: 1s;
 }
 
 @media (max-width: 1250px){
@@ -588,6 +596,16 @@ form button{
   font-size: 20px;
   padding: 20px;
   border: skyblue 1px solid;
+}
+
+@media (max-width: 1000px){
+  .video-container {
+    max-width: auto;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+  }
 }
 
 .headings-two{
